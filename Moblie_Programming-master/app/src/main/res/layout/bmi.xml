@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="50dp"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/bmi_height"
+        android:drawableLeft="@drawable/ic_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Height(cm)" />
+    <EditText
+        android:id="@+id/bmi_weight"
+        android:drawableLeft="@drawable/ic_down"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight(kg)"/>
+    <Button
+        android:id="@+id/bmi_btn"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE"/>
+    <EditText
+        android:textAlignment="center"
+        android:layout_marginTop="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your BMI"/>
+    <EditText
+        android:id="@+id/answerFi"
+        android:textAlignment="center"
+        android:layout_marginTop="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="26.55"/>
+    </LinearLayout>
+</LinearLayout>
